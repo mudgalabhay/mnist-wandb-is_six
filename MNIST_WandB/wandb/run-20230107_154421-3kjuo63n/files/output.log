@@ -1,0 +1,35 @@
+Epoch 1/10
+   1/1875 [..............................] - ETA: 9:43 - loss: 0.5004 - accuracy: 0.5000WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0000s vs `on_train_batch_end` time: 0.0025s). Check your callbacks.
+
+1860/1875 [============================>.] - ETA: 0s - loss: 0.0356 - accuracy: 0.9639INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_154421-3kjuo63n\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_154421-3kjuo63n\files\model-best)... Done. 0.0s
+1875/1875 [==============================] - 4s 2ms/step - loss: 0.0355 - accuracy: 0.9641 - val_loss: 0.0230 - val_accuracy: 0.9769
+Epoch 2/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 0.0246 - accuracy: 0.9752 - val_loss: 0.0333 - val_accuracy: 0.9665
+Epoch 3/10
+1865/1875 [============================>.] - ETA: 0s - loss: 0.0221 - accuracy: 0.9778INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_154421-3kjuo63n\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_154421-3kjuo63n\files\model-best)... Done. 0.0s
+1875/1875 [==============================] - 3s 2ms/step - loss: 0.0221 - accuracy: 0.9778 - val_loss: 0.0203 - val_accuracy: 0.9796
+Epoch 4/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 0.0216 - accuracy: 0.9783 - val_loss: 0.0212 - val_accuracy: 0.9784
+Epoch 5/10
+1770/1875 [===========================>..] - ETA: 0s - loss: 0.0219 - accuracy: 0.9780
+
+1872/1875 [============================>.] - ETA: 0s - loss: 0.0217 - accuracy: 0.9782INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_154421-3kjuo63n\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_154421-3kjuo63n\files\model-best)... Done. 0.0s
+1875/1875 [==============================] - 3s 2ms/step - loss: 0.0216 - accuracy: 0.9782 - val_loss: 0.0189 - val_accuracy: 0.9810
+Epoch 6/10
+1870/1875 [============================>.] - ETA: 0s - loss: 0.0220 - accuracy: 0.9779INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_154421-3kjuo63n\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_154421-3kjuo63n\files\model-best)... Done. 0.0s
+1875/1875 [==============================] - 3s 2ms/step - loss: 0.0219 - accuracy: 0.9779 - val_loss: 0.0184 - val_accuracy: 0.9815
+Epoch 7/10
+1837/1875 [============================>.] - ETA: 0s - loss: 0.0185 - accuracy: 0.9814INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_154421-3kjuo63n\files\model-best\assets
+1875/1875 [==============================] - 4s 2ms/step - loss: 0.0185 - accuracy: 0.9815 - val_loss: 0.0168 - val_accuracy: 0.9832
+Epoch 8/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 0.0186 - accuracy: 0.9813 - val_loss: 0.0188 - val_accuracy: 0.9812
+Epoch 9/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 0.0182 - accuracy: 0.9816 - val_loss: 0.0216 - val_accuracy: 0.9784
+Epoch 10/10
+1835/1875 [============================>.] - ETA: 0s - loss: 0.0205 - accuracy: 0.9794
+
+1835/1875 [============================>.] - ETA: 0s - loss: 0.0205 - accuracy: 0.9794INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_154421-3kjuo63n\files\model-best\assets

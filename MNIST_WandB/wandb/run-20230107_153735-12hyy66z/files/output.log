@@ -1,0 +1,35 @@
+
+IMG SIZE: 28*28
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+WARNING:tensorflow:From C:\Users\mudga\anaconda3\envs\wandb_env\lib\site-packages\tensorflow\python\ops\math_ops.py:3837: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+Epoch 1/10
+   1/1875 [..............................] - ETA: 10:43 - loss: 4446.9858 - accuracy: 0.6875WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0008s vs `on_train_batch_end` time: 0.0012s). Check your callbacks.
+1244/1875 [==================>...........] - ETA: 0s - loss: 353.3580 - accuracy: 0.5126
+
+1871/1875 [============================>.] - ETA: 0s - loss: 244.4647 - accuracy: 0.5222INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_153735-12hyy66z\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_153735-12hyy66z\files\model-best)... Done. 0.0s
+1875/1875 [==============================] - 3s 2ms/step - loss: 243.9756 - accuracy: 0.5219 - val_loss: 12.2205 - val_accuracy: 0.5807
+Epoch 2/10
+1841/1875 [============================>.] - ETA: 0s - loss: 5.3080 - accuracy: 0.6072INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_153735-12hyy66z\files\model-best\assets
+1875/1875 [==============================] - 3s 2ms/step - loss: 5.2367 - accuracy: 0.6085 - val_loss: 1.1850 - val_accuracy: 0.5436
+Epoch 3/10
+1875/1875 [==============================] - 2s 961us/step - loss: 7.1097 - accuracy: 0.6135 - val_loss: 4.0230 - val_accuracy: 0.8024
+Epoch 4/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 5.5452 - accuracy: 0.6021 - val_loss: 7.1524 - val_accuracy: 0.5811
+Epoch 5/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 6.4739 - accuracy: 0.5966 - val_loss: 5.6231 - val_accuracy: 0.8896
+Epoch 6/10
+1875/1875 [==============================] - 2s 962us/step - loss: 6.2000 - accuracy: 0.6055 - val_loss: 8.7218 - val_accuracy: 0.7342
+Epoch 7/10
+1875/1875 [==============================] - 2s 925us/step - loss: 6.3420 - accuracy: 0.5947 - val_loss: 8.6431 - val_accuracy: 0.6770
+Epoch 8/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 8.0103 - accuracy: 0.5865 - val_loss: 6.3546 - val_accuracy: 0.5334
+Epoch 9/10
+1508/1875 [=======================>......] - ETA: 0s - loss: 9.6271 - accuracy: 0.6016
+
+1817/1875 [============================>.] - ETA: 0s - loss: 8.1559 - accuracy: 0.6207INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_153735-12hyy66z\files\model-best\assets
+1875/1875 [==============================] - 5s 2ms/step - loss: 7.9261 - accuracy: 0.6244 - val_loss: 0.4945 - val_accuracy: 0.7411
+Epoch 10/10
+1875/1875 [==============================] - 2s 974us/step - loss: 6.9470 - accuracy: 0.6137 - val_loss: 0.9870 - val_accuracy: 0.6558

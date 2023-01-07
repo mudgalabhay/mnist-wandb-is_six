@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2023-01-07T09:40:59.315334",
+    "startedAt": "2023-01-07T09:40:50.332772",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Weights_and_Biases_Tutorials/MNIST - W&B -- Done/mnist_wandb.ipynb",
+    "root": "E:\\",
+    "host": "MSI",
+    "username": "mudga",
+    "executable": "C:\\Users\\mudga\\anaconda3\\envs\\wandb_env\\python.exe"
+}

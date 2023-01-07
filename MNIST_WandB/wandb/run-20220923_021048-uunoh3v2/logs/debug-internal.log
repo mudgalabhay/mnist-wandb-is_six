@@ -1,0 +1,174 @@
+2022-09-23 02:10:48,532 INFO    StreamThr :8432 [internal.py:wandb_internal():88] W&B internal server running at pid: 8432, started at: 2022-09-23 02:10:48.531880
+2022-09-23 02:10:48,534 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: status
+2022-09-23 02:10:48,538 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: status
+2022-09-23 02:10:48,543 INFO    WriterThread:8432 [datastore.py:open_for_write():75] open: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\run-uunoh3v2.wandb
+2022-09-23 02:10:48,543 DEBUG   SenderThread:8432 [sender.py:send():301] send: header
+2022-09-23 02:10:48,556 DEBUG   SenderThread:8432 [sender.py:send():301] send: run
+2022-09-23 02:10:48,568 DEBUG   SenderThread:8432 [git.py:repo():40] git repository is invalid
+2022-09-23 02:10:49,326 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: check_version
+2022-09-23 02:10:49,329 INFO    SenderThread:8432 [dir_watcher.py:__init__():216] watching files in: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files
+2022-09-23 02:10:49,329 INFO    SenderThread:8432 [sender.py:_start_run_threads():912] run started: uunoh3v2 with start time 1663879248.524876
+2022-09-23 02:10:49,329 DEBUG   SenderThread:8432 [sender.py:send():301] send: summary
+2022-09-23 02:10:49,329 INFO    SenderThread:8432 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-23 02:10:49,330 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: check_version
+2022-09-23 02:10:49,457 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: run_start
+2022-09-23 02:10:49,473 DEBUG   HandlerThread:8432 [meta.py:__init__():34] meta init
+2022-09-23 02:10:49,473 DEBUG   HandlerThread:8432 [meta.py:__init__():49] meta init done
+2022-09-23 02:10:49,473 DEBUG   HandlerThread:8432 [meta.py:probe():215] probe
+2022-09-23 02:10:49,494 DEBUG   HandlerThread:8432 [git.py:repo():40] git repository is invalid
+2022-09-23 02:10:49,494 DEBUG   HandlerThread:8432 [meta.py:_save_pip():53] save pip
+2022-09-23 02:10:49,495 DEBUG   HandlerThread:8432 [meta.py:_save_pip():67] save pip done
+2022-09-23 02:10:49,496 DEBUG   HandlerThread:8432 [meta.py:_save_conda():74] save conda
+2022-09-23 02:10:50,334 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_created():275] file/dir created: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\requirements.txt
+2022-09-23 02:10:50,334 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_created():275] file/dir created: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\conda-environment.yaml
+2022-09-23 02:10:50,334 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_created():275] file/dir created: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\wandb-summary.json
+2022-09-23 02:11:06,443 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_created():275] file/dir created: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\media\graph\graph_summary_01f27031e47261144cf9.graph.json
+2022-09-23 02:11:06,443 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_created():275] file/dir created: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\media\graph
+2022-09-23 02:11:06,444 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_created():275] file/dir created: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\media
+2022-09-23 02:11:17,597 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\conda-environment.yaml
+2022-09-23 02:11:17,745 DEBUG   HandlerThread:8432 [meta.py:_save_conda():84] save conda done
+2022-09-23 02:11:17,745 DEBUG   HandlerThread:8432 [meta.py:probe():253] probe done
+2022-09-23 02:11:18,532 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:11:18,532 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:11:18,539 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: pause
+2022-09-23 02:11:18,539 INFO    HandlerThread:8432 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-09-23 02:11:18,606 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_created():275] file/dir created: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\wandb-metadata.json
+2022-09-23 02:11:18,679 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: resume
+2022-09-23 02:11:18,679 INFO    HandlerThread:8432 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-09-23 02:11:18,680 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: pause
+2022-09-23 02:11:18,680 INFO    HandlerThread:8432 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-09-23 02:11:18,753 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: resume
+2022-09-23 02:11:18,753 INFO    HandlerThread:8432 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-09-23 02:11:18,754 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: pause
+2022-09-23 02:11:18,754 INFO    HandlerThread:8432 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-09-23 02:11:18,837 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: resume
+2022-09-23 02:11:18,837 INFO    HandlerThread:8432 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-09-23 02:11:18,837 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: pause
+2022-09-23 02:11:18,838 INFO    HandlerThread:8432 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-09-23 02:11:18,909 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: resume
+2022-09-23 02:11:18,910 DEBUG   SenderThread:8432 [sender.py:send():301] send: telemetry
+2022-09-23 02:11:18,910 INFO    HandlerThread:8432 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-09-23 02:11:18,910 DEBUG   SenderThread:8432 [sender.py:send():301] send: telemetry
+2022-09-23 02:11:18,911 DEBUG   SenderThread:8432 [sender.py:send():301] send: config
+2022-09-23 02:11:18,912 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: pause
+2022-09-23 02:11:18,913 INFO    HandlerThread:8432 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-09-23 02:11:18,989 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: resume
+2022-09-23 02:11:18,989 INFO    HandlerThread:8432 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-09-23 02:11:18,991 DEBUG   SenderThread:8432 [sender.py:send():301] send: telemetry
+2022-09-23 02:11:18,991 DEBUG   SenderThread:8432 [sender.py:send():301] send: telemetry
+2022-09-23 02:11:18,992 DEBUG   SenderThread:8432 [sender.py:send():301] send: files
+2022-09-23 02:11:18,992 INFO    SenderThread:8432 [sender.py:_save_file():1155] saving file model-best.h5 with policy live
+2022-09-23 02:11:18,993 DEBUG   SenderThread:8432 [sender.py:send():301] send: telemetry
+2022-09-23 02:11:18,994 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: get_summary
+2022-09-23 02:11:19,008 DEBUG   SenderThread:8432 [sender.py:send():301] send: summary
+2022-09-23 02:11:19,012 INFO    SenderThread:8432 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-23 02:11:19,015 DEBUG   SenderThread:8432 [sender.py:send():301] send: files
+2022-09-23 02:11:19,015 INFO    SenderThread:8432 [sender.py:_save_file():1155] saving file media\graph\graph_summary_01f27031e47261144cf9.graph.json with policy now
+2022-09-23 02:11:19,032 DEBUG   SenderThread:8432 [sender.py:send():301] send: summary
+2022-09-23 02:11:19,036 INFO    SenderThread:8432 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-23 02:11:19,152 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:11:19,153 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:11:19,163 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-23 02:11:19,163 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-23 02:11:19,507 DEBUG   SenderThread:8432 [sender.py:send():301] send: history
+2022-09-23 02:11:19,508 DEBUG   SenderThread:8432 [sender.py:send():301] send: summary
+2022-09-23 02:11:19,511 INFO    SenderThread:8432 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-23 02:11:19,513 DEBUG   SenderThread:8432 [sender.py:send():301] send: files
+2022-09-23 02:11:19,513 INFO    SenderThread:8432 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2022-09-23 02:11:19,515 DEBUG   SenderThread:8432 [sender.py:send():301] send: stats
+2022-09-23 02:11:19,516 DEBUG   SenderThread:8432 [sender.py:send():301] send: stats
+2022-09-23 02:11:19,532 DEBUG   SenderThread:8432 [sender.py:send():301] send: stats
+2022-09-23 02:11:19,563 DEBUG   SenderThread:8432 [sender.py:send():301] send: stats
+2022-09-23 02:11:19,579 DEBUG   SenderThread:8432 [sender.py:send():301] send: stats
+2022-09-23 02:11:19,721 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\wandb-summary.json
+2022-09-23 02:11:19,722 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_created():275] file/dir created: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:20,080 INFO    Thread-26 :8432 [upload_job.py:push():139] Uploaded file C:\Users\mudga\AppData\Local\Temp\tmpgy3kdkrawandb\2qgn3s5k-media/graph/graph_summary_01f27031e47261144cf9.graph.json
+2022-09-23 02:11:20,704 INFO    Thread-27 :8432 [upload_job.py:push():139] Uploaded file C:\Users\mudga\AppData\Local\Temp\tmpgy3kdkrawandb\38fpfryv-wandb-metadata.json
+2022-09-23 02:11:21,748 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:23,773 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:24,724 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-23 02:11:24,725 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-23 02:11:24,726 DEBUG   SenderThread:8432 [sender.py:send():301] send: history
+2022-09-23 02:11:24,727 DEBUG   SenderThread:8432 [sender.py:send():301] send: summary
+2022-09-23 02:11:24,728 INFO    SenderThread:8432 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-23 02:11:24,783 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\wandb-summary.json
+2022-09-23 02:11:25,787 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:27,804 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:29,830 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:31,847 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:33,856 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:34,512 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:11:34,513 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:11:35,857 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-23 02:11:35,858 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-23 02:11:35,859 DEBUG   SenderThread:8432 [sender.py:send():301] send: history
+2022-09-23 02:11:35,860 DEBUG   SenderThread:8432 [sender.py:send():301] send: summary
+2022-09-23 02:11:35,861 INFO    SenderThread:8432 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-23 02:11:35,873 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:35,873 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\wandb-summary.json
+2022-09-23 02:11:37,899 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:39,919 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:41,940 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:43,957 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:45,393 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-23 02:11:45,394 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-23 02:11:45,394 DEBUG   SenderThread:8432 [sender.py:send():301] send: history
+2022-09-23 02:11:45,395 DEBUG   SenderThread:8432 [sender.py:send():301] send: summary
+2022-09-23 02:11:45,396 INFO    SenderThread:8432 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-23 02:11:45,984 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:45,984 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\wandb-summary.json
+2022-09-23 02:11:48,009 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:49,897 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:11:49,897 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:11:50,038 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\config.yaml
+2022-09-23 02:11:50,039 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:50,728 DEBUG   SenderThread:8432 [sender.py:send():301] send: stats
+2022-09-23 02:11:52,057 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:54,081 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:11:54,924 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-23 02:11:54,924 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-23 02:11:54,925 DEBUG   SenderThread:8432 [sender.py:send():301] send: history
+2022-09-23 02:11:54,926 DEBUG   SenderThread:8432 [sender.py:send():301] send: summary
+2022-09-23 02:11:54,927 INFO    SenderThread:8432 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-23 02:11:54,930 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: pause
+2022-09-23 02:11:54,930 INFO    HandlerThread:8432 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-09-23 02:11:55,012 DEBUG   SenderThread:8432 [sender.py:send():301] send: stats
+2022-09-23 02:11:55,101 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\wandb-summary.json
+2022-09-23 02:11:56,110 INFO    Thread-17 :8432 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\Weights_and_Biases_Tutorials\MNIST - W&B\wandb\run-20220923_021048-uunoh3v2\files\output.log
+2022-09-23 02:12:05,258 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:12:05,258 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:12:20,638 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:12:20,639 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:12:36,013 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:12:36,013 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:12:51,365 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:12:51,366 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:13:06,724 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:13:06,725 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:13:22,154 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:13:22,154 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:13:37,533 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:13:37,534 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:13:52,918 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:13:52,918 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:14:08,293 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:14:08,293 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:14:23,675 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:14:23,676 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:14:39,071 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:14:39,072 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:14:50,619 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: resume
+2022-09-23 02:14:50,620 INFO    HandlerThread:8432 [handler.py:handle_request_resume():687] starting system metrics thread
+2022-09-23 02:14:50,624 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: pause
+2022-09-23 02:14:50,624 INFO    HandlerThread:8432 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-09-23 02:14:50,679 DEBUG   SenderThread:8432 [sender.py:send():301] send: stats
+2022-09-23 02:14:54,453 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:14:54,454 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:15:09,827 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:15:09,828 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:15:25,205 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:15:25,206 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:15:40,654 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:15:40,655 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status
+2022-09-23 02:15:56,056 DEBUG   HandlerThread:8432 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-23 02:15:56,056 DEBUG   SenderThread:8432 [sender.py:send_request():315] send_request: stop_status

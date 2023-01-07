@@ -1,0 +1,35 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+WARNING:tensorflow:From C:\Users\mudga\anaconda3\envs\wandb_env\lib\site-packages\tensorflow\python\ops\math_ops.py:3837: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+Epoch 1/5
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.2042 - accuracy: 0.9405
+Epoch 2/5
+
+
+
+
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0909 - accuracy: 0.9744
+Epoch 3/5
+
+
+
+
+1875/1875 [==============================] - 12s 6ms/step - loss: 0.0641 - accuracy: 0.9819
+Epoch 4/5
+
+
+
+
+
+1875/1875 [==============================] - 10s 6ms/step - loss: 0.0518 - accuracy: 0.9859
+Epoch 5/5
+
+
+
+
+1875/1875 [==============================] - 10s 5ms/step - loss: 0.0418 - accuracy: 0.9891

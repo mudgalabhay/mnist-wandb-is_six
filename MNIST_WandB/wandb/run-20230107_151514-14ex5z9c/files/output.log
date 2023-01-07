@@ -1,0 +1,174 @@
+
+IMG SIZE: 28*28
+WARNING:tensorflow:From C:\Users\mudga\anaconda3\envs\wandb_env\lib\site-packages\tensorflow\python\ops\math_ops.py:3837: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+Epoch 1/10
+1209/1875 [==================>...........] - ETA: 0s - loss: 481.8818 - accuracy: 0.5110
+
+1857/1875 [============================>.] - ETA: 0s - loss: 328.4040 - accuracy: 0.5165INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best)... Done. 0.0s
+1875/1875 [==============================] - 3s 2ms/step - loss: 325.4676 - accuracy: 0.5169 - val_loss: 19.6651 - val_accuracy: 0.5248
+Epoch 2/10
+
+1825/1875 [============================>.] - ETA: 0s - loss: 7.2468 - accuracy: 0.5908INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best)... Done. 0.0s
+1875/1875 [==============================] - 3s 1ms/step - loss: 7.1048 - accuracy: 0.5922 - val_loss: 1.2117 - val_accuracy: 0.6818
+Epoch 3/10
+1875/1875 [==============================] - 2s 926us/step - loss: 4.7124 - accuracy: 0.6294 - val_loss: 7.7497 - val_accuracy: 0.4302
+Epoch 4/10
+1875/1875 [==============================] - 2s 905us/step - loss: 6.3916 - accuracy: 0.6065 - val_loss: 23.3474 - val_accuracy: 0.3821
+Epoch 5/10
+1875/1875 [==============================] - 2s 931us/step - loss: 6.6887 - accuracy: 0.5959 - val_loss: 10.7611 - val_accuracy: 0.7718
+Epoch 6/10
+1875/1875 [==============================] - 2s 914us/step - loss: 6.5397 - accuracy: 0.6183 - val_loss: 12.6587 - val_accuracy: 0.3180
+Epoch 7/10
+1875/1875 [==============================] - 2s 930us/step - loss: 8.2110 - accuracy: 0.5871 - val_loss: 19.8939 - val_accuracy: 0.4708
+Epoch 8/10
+1875/1875 [==============================] - 2s 931us/step - loss: 5.3460 - accuracy: 0.6076 - val_loss: 5.6799 - val_accuracy: 0.8710
+Epoch 9/10
+1875/1875 [==============================] - 2s 931us/step - loss: 6.6888 - accuracy: 0.5992 - val_loss: 9.1246 - val_accuracy: 0.7071
+Epoch 10/10
+
+1875/1875 [==============================] - 2s 912us/step - loss: 8.0695 - accuracy: 0.5905 - val_loss: 6.5383 - val_accuracy: 0.3954
+Epoch 1/100
+1875/1875 [==============================] - 2s 989us/step - loss: 6.6940 - accuracy: 0.6330 - val_loss: 2.7219 - val_accuracy: 0.6393
+Epoch 2/100
+1875/1875 [==============================] - 2s 890us/step - loss: 7.1988 - accuracy: 0.5863 - val_loss: 29.5846 - val_accuracy: 0.6617
+Epoch 3/100
+1875/1875 [==============================] - 2s 859us/step - loss: 6.5188 - accuracy: 0.6137 - val_loss: 1.7608 - val_accuracy: 0.6673
+Epoch 4/100
+1875/1875 [==============================] - 2s 855us/step - loss: 6.7544 - accuracy: 0.6008 - val_loss: 6.4899 - val_accuracy: 0.5726
+Epoch 5/100
+1875/1875 [==============================] - 2s 879us/step - loss: 7.1732 - accuracy: 0.6146 - val_loss: 1.3961 - val_accuracy: 0.3519
+Epoch 6/100
+1875/1875 [==============================] - 2s 902us/step - loss: 5.8351 - accuracy: 0.6016 - val_loss: 10.7659 - val_accuracy: 0.8685
+Epoch 7/100
+1875/1875 [==============================] - 2s 870us/step - loss: 6.2308 - accuracy: 0.5930 - val_loss: 7.0404 - val_accuracy: 0.1785
+Epoch 8/100
+
+1821/1875 [============================>.] - ETA: 0s - loss: 7.2849 - accuracy: 0.5955INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best)... Done. 0.0s
+1875/1875 [==============================] - 3s 1ms/step - loss: 7.1047 - accuracy: 0.5986 - val_loss: 0.6412 - val_accuracy: 0.6397
+Epoch 9/100
+1875/1875 [==============================] - 2s 888us/step - loss: 7.0624 - accuracy: 0.6003 - val_loss: 27.2805 - val_accuracy: 0.3927
+Epoch 10/100
+1875/1875 [==============================] - 2s 1ms/step - loss: 6.9907 - accuracy: 0.5834 - val_loss: 7.4040 - val_accuracy: 0.5191
+Epoch 11/100
+1875/1875 [==============================] - 2s 942us/step - loss: 7.7944 - accuracy: 0.6072 - val_loss: 0.9909 - val_accuracy: 0.8166
+Epoch 12/100
+1875/1875 [==============================] - 2s 1ms/step - loss: 4.7277 - accuracy: 0.6124 - val_loss: 13.5015 - val_accuracy: 0.2028
+Epoch 13/100
+
+1875/1875 [==============================] - 2s 1ms/step - loss: 7.7469 - accuracy: 0.5849 - val_loss: 1.9240 - val_accuracy: 0.5069
+Epoch 14/100
+1875/1875 [==============================] - 2s 1ms/step - loss: 8.4982 - accuracy: 0.5909 - val_loss: 2.7662 - val_accuracy: 0.7390
+Epoch 15/100
+1875/1875 [==============================] - 2s 885us/step - loss: 4.5752 - accuracy: 0.6368 - val_loss: 10.0206 - val_accuracy: 0.4597
+Epoch 16/100
+1875/1875 [==============================] - 2s 879us/step - loss: 7.2429 - accuracy: 0.5866 - val_loss: 5.4962 - val_accuracy: 0.8725
+Epoch 17/100
+1875/1875 [==============================] - 2s 919us/step - loss: 5.5069 - accuracy: 0.6079 - val_loss: 6.4278 - val_accuracy: 0.3649
+Epoch 18/100
+1875/1875 [==============================] - 2s 923us/step - loss: 7.4064 - accuracy: 0.6003 - val_loss: 2.6030 - val_accuracy: 0.5571
+Epoch 19/100
+1875/1875 [==============================] - 2s 977us/step - loss: 6.8160 - accuracy: 0.6015 - val_loss: 12.5010 - val_accuracy: 0.2369
+Epoch 20/100
+1875/1875 [==============================] - 2s 1ms/step - loss: 5.7985 - accuracy: 0.6027 - val_loss: 4.2679 - val_accuracy: 0.5953
+Epoch 21/100
+1875/1875 [==============================] - 2s 936us/step - loss: 8.0116 - accuracy: 0.5970 - val_loss: 4.8453 - val_accuracy: 0.4778
+Epoch 22/100
+1875/1875 [==============================] - 2s 956us/step - loss: 4.7734 - accuracy: 0.6278 - val_loss: 4.6740 - val_accuracy: 0.7838
+Epoch 23/100
+1875/1875 [==============================] - 2s 895us/step - loss: 7.2981 - accuracy: 0.6042 - val_loss: 2.0239 - val_accuracy: 0.8378
+Epoch 24/100
+1875/1875 [==============================] - 2s 1ms/step - loss: 6.6019 - accuracy: 0.5887 - val_loss: 2.6473 - val_accuracy: 0.4142
+Epoch 25/100
+1875/1875 [==============================] - 2s 1ms/step - loss: 5.7595 - accuracy: 0.5961 - val_loss: 20.4589 - val_accuracy: 0.7643
+Epoch 26/100
+1875/1875 [==============================] - 2s 1ms/step - loss: 7.4477 - accuracy: 0.5996 - val_loss: 4.3758 - val_accuracy: 0.8987
+Epoch 27/100
+1875/1875 [==============================] - 2s 921us/step - loss: 6.9867 - accuracy: 0.5894 - val_loss: 7.3125 - val_accuracy: 0.4382
+Epoch 28/100
+1875/1875 [==============================] - 2s 942us/step - loss: 6.8529 - accuracy: 0.6319 - val_loss: 9.9640 - val_accuracy: 0.3174
+Epoch 29/100
+1875/1875 [==============================] - 2s 943us/step - loss: 6.1287 - accuracy: 0.6021 - val_loss: 1.7567 - val_accuracy: 0.7463
+Epoch 30/100
+1875/1875 [==============================] - 2s 905us/step - loss: 6.8725 - accuracy: 0.6094 - val_loss: 17.7919 - val_accuracy: 0.7661
+Epoch 31/100
+1875/1875 [==============================] - 2s 945us/step - loss: 6.8919 - accuracy: 0.6143 - val_loss: 1.4639 - val_accuracy: 0.5382
+Epoch 32/100
+1875/1875 [==============================] - 2s 943us/step - loss: 7.6771 - accuracy: 0.6273 - val_loss: 20.8693 - val_accuracy: 0.6248
+Epoch 33/100
+1875/1875 [==============================] - 2s 1ms/step - loss: 7.0500 - accuracy: 0.6165 - val_loss: 13.6446 - val_accuracy: 0.7725
+Epoch 34/100
+1875/1875 [==============================] - 2s 897us/step - loss: 6.9996 - accuracy: 0.5859 - val_loss: 3.3487 - val_accuracy: 0.6148
+Epoch 35/100
+1875/1875 [==============================] - 2s 1ms/step - loss: 5.9697 - accuracy: 0.6128 - val_loss: 3.5800 - val_accuracy: 0.6804
+Epoch 36/100
+1875/1875 [==============================] - 2s 938us/step - loss: 6.3851 - accuracy: 0.5999 - val_loss: 5.4458 - val_accuracy: 0.3807
+Epoch 37/100
+Epoch 38/100=============================] - 2s 962us/step - loss: 6.8808 - accuracy: 0.5888 - val_loss: 1.8698 - val_accuracy: 0.7413
+Epoch 38/100=============================] - 2s 962us/step - loss: 6.8808 - accuracy: 0.5888 - val_loss: 1.8698 - val_accuracy: 0.7413
+1875/1875 [==============================] - 2s 912us/step - loss: 7.4096 - accuracy: 0.5926 - val_loss: 2.4246 - val_accuracy: 0.3009
+Epoch 39/100
+1875/1875 [==============================] - 2s 912us/step - loss: 7.4096 - accuracy: 0.5926 - val_loss: 2.4246 - val_accuracy: 0.3009
+Epoch 40/100
+1875/1875 [==============================] - 2s 915us/step - loss: 6.8997 - accuracy: 0.5944 - val_loss: 2.2413 - val_accuracy: 0.6132
+Epoch 41/100
+ 695/1875 [==========>...................] - ETA: 0s - loss: 5.6347 - accuracy: 0.5945
+1053/1875 [===============>..............] - ETA: 0s - loss: 3.3418 - accuracy: 0.6377  5944 - val_loss: 2.2413 - val_accuracy: 0.6132
+1875/1875 [==============================] - 2s 926us/step - loss: 6.4647 - accuracy: 0.6284 - val_loss: 0.9550 - val_accuracy: 0.6378
+1683/1875 [=========================>....] - ETA: 0s - loss: 7.2303 - accuracy: 0.6350 .6284 - val_loss: 0.9550 - val_accuracy: 0.6378
+1875/1875 [==============================] - 2s 932us/step - loss: 6.8634 - accuracy: 0.6316 - val_loss: 3.4527 - val_accuracy: 0.6067
+1875/1875 [==============================] - 2s 911us/step - loss: 6.7432 - accuracy: 0.5905 - val_loss: 2.7213 - val_accuracy: 0.5539
+ 464/1875 [======>.......................] - ETA: 1s - loss: 8.8067 - accuracy: 0.5842 .5905 - val_loss: 2.7213 - val_accuracy: 0.5539
+1875/1875 [==============================] - 2s 943us/step - loss: 5.9535 - accuracy: 0.6057 - val_loss: 1.2740 - val_accuracy: 0.4844
+ 835/1875 [============>.................] - ETA: 0s - loss: 5.1280 - accuracy: 0.60490.6057 - val_loss: 1.2740 - val_accuracy: 0.4844
+1875/1875 [==============================] - 2s 984us/step - loss: 5.5659 - accuracy: 0.5993 - val_loss: 2.3339 - val_accuracy: 0.7877
+ 332/1875 [====>.........................] - ETA: 1s - loss: 13.6871 - accuracy: 0.5583.5993 - val_loss: 2.3339 - val_accuracy: 0.7877
+1875/1875 [==============================] - 2s 1ms/step - loss: 6.2547 - accuracy: 0.6156 - val_loss: 3.6125 - val_accuracy: 0.477577
+ 531/1875 [=======>......................] - ETA: 1s - loss: 10.5636 - accuracy: 0.5767156 - val_loss: 3.6125 - val_accuracy: 0.477577
+1875/1875 [==============================] - 2s 913us/step - loss: 7.3828 - accuracy: 0.5961 - val_loss: 4.1846 - val_accuracy: 0.4827
+1212/1875 [==================>...........] - ETA: 0s - loss: 8.6102 - accuracy: 0.5790 .5961 - val_loss: 4.1846 - val_accuracy: 0.4827
+1875/1875 [==============================] - 2s 917us/step - loss: 7.1347 - accuracy: 0.5922 - val_loss: 1.7731 - val_accuracy: 0.5227
+1819/1875 [============================>.] - ETA: 0s - loss: 7.8768 - accuracy: 0.59970.5922 - val_loss: 1.7731 - val_accuracy: 0.5227
+1875/1875 [==============================] - 2s 984us/step - loss: 7.7409 - accuracy: 0.5998 - val_loss: 4.8561 - val_accuracy: 0.8581
+1875/1875 [==============================] - 2s 901us/step - loss: 6.7028 - accuracy: 0.5985 - val_loss: 2.3749 - val_accuracy: 0.5920
+ 564/1875 [========>.....................] - ETA: 1s - loss: 10.2709 - accuracy: 0.5711.5985 - val_loss: 2.3749 - val_accuracy: 0.5920
+1875/1875 [==============================] - 2s 1ms/step - loss: 6.5738 - accuracy: 0.6008 - val_loss: 10.5808 - val_accuracy: 0.74720
+ 117/1875 [>.............................] - ETA: 1s - loss: 5.8987 - accuracy: 0.58236008 - val_loss: 10.5808 - val_accuracy: 0.74720
+1866/1875 [============================>.] - ETA: 0s - loss: 6.9235 - accuracy: 0.58466008 - val_loss: 10.5808 - val_accuracy: 0.74720
+ 251/1875 [===>..........................] - ETA: 1s - loss: 6.6258 - accuracy: 0.59550.5847 - val_loss: 8.0960 - val_accuracy: 0.8563
+1875/1875 [==============================] - 2s 908us/step - loss: 7.1782 - accuracy: 0.6129 - val_loss: 5.4321 - val_accuracy: 0.6707
+ 580/1875 [========>.....................] - ETA: 1s - loss: 7.2336 - accuracy: 0.58540.6129 - val_loss: 5.4321 - val_accuracy: 0.6707
+1875/1875 [==============================] - 2s 1ms/step - loss: 6.3877 - accuracy: 0.5865 - val_loss: 7.4310 - val_accuracy: 0.868107
+ 398/1875 [=====>........................] - ETA: 1s - loss: 10.0393 - accuracy: 0.5796865 - val_loss: 7.4310 - val_accuracy: 0.868107
+1822/1875 [============================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+1822/1875 [============================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 74/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 74/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 76/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 76/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 78/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 78/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 80/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 82/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 82/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 84/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 84/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 86/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 86/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 88/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 88/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 90/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 92/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 92/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+Epoch 92/100===========================>.] - ETA: 0s - loss: 7.5484 - accuracy: 0.6120INFO:tensorflow:Assets written to: E:\Weights_and_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+1875/1875 [==============================] - 2s 912us/step - loss: 5.1304 - accuracy: 0.6328 - val_loss: 8.6667 - val_accuracy: 0.6323d_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+ 638/1875 [=========>....................] - ETA: 1s - loss: 7.3722 - accuracy: 0.6118 .6328 - val_loss: 8.6667 - val_accuracy: 0.6323d_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+1875/1875 [==============================] - 2s 917us/step - loss: 5.7028 - accuracy: 0.6112 - val_loss: 36.0965 - val_accuracy: 0.1828_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+1407/1875 [=====================>........] - ETA: 0s - loss: 7.3466 - accuracy: 0.5871 .6112 - val_loss: 36.0965 - val_accuracy: 0.1828_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+1875/1875 [==============================] - 2s 922us/step - loss: 7.7971 - accuracy: 0.5809 - val_loss: 4.0289 - val_accuracy: 0.62008_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+1875/1875 [==============================] - 2s 922us/step - loss: 7.7971 - accuracy: 0.5809 - val_loss: 4.0289 - val_accuracy: 0.62008_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
+1875/1875 [==============================] - 2s 922us/step - loss: 7.7971 - accuracy: 0.5809 - val_loss: 4.0289 - val_accuracy: 0.62008_Biases_Tutorials\MNIST - W&B -- Done\wandb\run-20230107_151514-14ex5z9c\files\model-best\assets
